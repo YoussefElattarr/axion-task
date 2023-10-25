@@ -176,7 +176,7 @@ classroomRoutes.delete("/:id", checkTocken, (req, res) => {
             res.status(404).send({ error: "Classroom not found" });
           } else {
             res.send({
-              message: "School deleted successfully",
+              message: "Classroom deleted successfully",
             });
           }
         } catch (err) {
